@@ -1,0 +1,6 @@
+<map id="downloadxml.main" name="downloadxml.main">
+<area shape="rect" id="node2" href="$namespacedownloadxml.html#abc3f6c8d51f9a903bb8504a7ad9ad2de" title="Запуск логгера. " alt="" coords="195,5,333,32"/>
+<area shape="rect" id="node3" href="$namespacedownloadxml.html#a801fc32a7254a9319cb06fb65fb757e9" title="Скачивание списоков угроз. " alt="" coords="184,56,344,83"/>
+<area shape="rect" id="node4" href="$namespacedownloadxml.html#ae15b4d4f7f282d34e48e03a2452741d6" title="Получение списка xml&#45;файлов. " alt="" coords="392,56,536,83"/>
+<area shape="rect" id="node5" href="$namespacedownloadxml.html#a7f19cfa93073885f474cf6a2a3f25e7f" title="Перемещение файлов и отправка в базу данных. " alt="" coords="584,56,727,83"/>
+</map>

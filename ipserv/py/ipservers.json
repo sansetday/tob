@@ -1,0 +1,79 @@
+{
+  "servers": [
+    {
+      "address": "https://ipgeolocation.io",
+      "need_auth": true,
+      "api_key": "7465b875e6e148f0ad0f4fc1321c940a",
+      "request_mask": "https://api.ipgeolocation.io/ipgeo?apiKey={1}&ip={0}&fields=geo",
+      "response_mask": {
+        "continent_code": "",
+        "continent_name": "",
+        "country_code": "country_code2",
+        "country_name": "country_name",
+        "city": "city",
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    },
+    {
+      "address": "https://ipstack.com/",
+      "need_auth": true,
+      "api_key": "fabe485bb68c3e47c04eac02cfdaa67c",
+      "request_mask": "http://api.ipstack.com/{0}?access_key={1}",
+      "response_mask": {
+        "continent_code": "continent_code",
+        "continent_name": "continent_name",
+        "country_code": "country_code",
+        "country_name": "country_name",
+        "city": "city",
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    },
+    {
+      "address": "https://ipdata.co/",
+      "need_auth": true,
+      "api_key": "d0746fc3b88ce640f22baa0049299aaa13d76a98a1312fcb291216c9",
+      "request_mask": "https://api.ipdata.co/{0}?api-key={1}",
+      "response_mask": {
+        "continent_code": "",
+        "continent_name": "",
+        "country_code": "country_code",
+        "country_name": "country_name",
+        "city": "city",
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    },
+    {
+      "address": "https://www.geoplugin.com/",
+      "need_auth": false,
+      "api_key": "",
+      "request_mask": "http://www.geoplugin.net/json.gp?ip={0}",
+      "response_mask": {
+        "continent_code": "geoplugin_continentCode",
+        "continent_name": "geoplugin_continentName",
+        "country_code": "geoplugin_countryCode",
+        "country_name": "geoplugin_countryName",
+        "city": "geoplugin_city",
+        "latitude": "geoplugin_latitude",
+        "longitude": "geoplugin_longitude"
+      }
+    },
+    {
+      "address": "https://geoip-db.com/",
+      "need_auth": false,
+      "api_key": "",
+      "request_mask": "https://geoip-db.com/json/{0}",
+      "response_mask": {
+        "continent_code": "",
+        "continent_name": "",
+        "country_code": "country_code",
+        "country_name": "country_name",
+        "city": "city",
+        "latitude": "latitude",
+        "longitude": "longitude"
+      }
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+\hypertarget{namespaceextractip}{}\section{Пространство имен extractip}
+\label{namespaceextractip}\index{extractip@{extractip}}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespaceextractip_ad06d305b46e8793c42d3b69a019b024a}{logger} ()
+\begin{DoxyCompactList}\small\item\em Запуск логгера. \end{DoxyCompactList}\item 
+def \hyperlink{namespaceextractip_a027ec0c1479a189825c3ddcfefa0622d}{Int\+To\+IP} (ipnum)
+\begin{DoxyCompactList}\small\item\em Преобразование из I\+N\+T\+E\+G\+ER в IP. \end{DoxyCompactList}\item 
+def \hyperlink{namespaceextractip_a618ef8385421a257b0d4e90b39fd6050}{extract\+Ip} (fpath)
+\begin{DoxyCompactList}\small\item\em Создание набора IP. \end{DoxyCompactList}\item 
+def \hyperlink{namespaceextractip_a93e2b267d1b4fe1cef5c09f3b66217c0}{register} (f)
+\begin{DoxyCompactList}\small\item\em Перенос файлов из I\+N/\+I\+PB в O\+U\+T/\+I\+PB. \end{DoxyCompactList}\item 
+def \hyperlink{namespaceextractip_a4eeaa038e0dc125d55e221ea90a5a466}{send\+DB} ()
+\begin{DoxyCompactList}\small\item\em Второй поток -\/ отправка в базу дананных. \end{DoxyCompactList}\item 
+def \hyperlink{namespaceextractip_a3683febfdca5f525d87e4066e121b146}{prog} ()
+\begin{DoxyCompactList}\small\item\em Первый поток -\/ обработка файлов. \end{DoxyCompactList}\item 
+def \hyperlink{namespaceextractip_a4400b3ea86ebdf89264ad2424ca152e4}{main} ()
+\begin{DoxyCompactList}\small\item\em Программа для чтения и преобразования файлов с IP и записи их в базу данных. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespaceextractip_a3145a105043353658277d58cb99ff1c6}{indir} = \textquotesingle{}../IN/I\+PB\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_afc77b990583eaef27725f54b1e371fd4}{f\+Dir} = \textquotesingle{}..//IN//I\+PB\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_a990ac0d0fba3b9b0eff9e0538af6d7cf}{outdir} = \textquotesingle{}../O\+UT/I\+PB\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_acbf601a19f64d09908d5ab149094b94d}{r\+Back} = \textquotesingle{}../IN/\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_ac577365c0a3822c9a30c2f72ecd62c18}{dbhost} = \textquotesingle{}localhost\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_a37c1fd9eb8523d6a57cbd077d2075be2}{dbport} = \textquotesingle{}5432\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_ae958c259d1ade44ffc42dc20f7d4b3ab}{dbuser} = \textquotesingle{}postgres\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_a1cc5f8cfee8451384713192bae5cf558}{dbpass} = \textquotesingle{}postgres\textquotesingle{}
+\item 
+string \hyperlink{namespaceextractip_a9394808f1a48ea90bfa2bb86c76d01ad}{dbname} = \textquotesingle{}project\+\_\+0\textquotesingle{}
+\item 
+\hyperlink{namespaceextractip_a2cf221bd199a42f6c0e3a42cba40b841}{q} = queue.\+Queue()
+\end{DoxyCompactItemize}
+
+
+\subsection{Функции}
+\mbox{\Hypertarget{namespaceextractip_a618ef8385421a257b0d4e90b39fd6050}\label{namespaceextractip_a618ef8385421a257b0d4e90b39fd6050}} 
+\index{extractip@{extractip}!extract\+Ip@{extract\+Ip}}
+\index{extract\+Ip@{extract\+Ip}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{extract\+Ip()}{extractIp()}}
+{\footnotesize\ttfamily def extractip.\+extract\+Ip (\begin{DoxyParamCaption}\item[{}]{fpath }\end{DoxyParamCaption})}
+
+
+
+Создание набора IP. 
+
+
+
+См. определение в файле extractip.\+py строка 49
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{namespaceextractip_a618ef8385421a257b0d4e90b39fd6050_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{namespaceextractip_a618ef8385421a257b0d4e90b39fd6050_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceextractip_a027ec0c1479a189825c3ddcfefa0622d}\label{namespaceextractip_a027ec0c1479a189825c3ddcfefa0622d}} 
+\index{extractip@{extractip}!Int\+To\+IP@{Int\+To\+IP}}
+\index{Int\+To\+IP@{Int\+To\+IP}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{Int\+To\+I\+P()}{IntToIP()}}
+{\footnotesize\ttfamily def extractip.\+Int\+To\+IP (\begin{DoxyParamCaption}\item[{}]{ipnum }\end{DoxyParamCaption})}
+
+
+
+Преобразование из I\+N\+T\+E\+G\+ER в IP. 
+
+
+
+См. определение в файле extractip.\+py строка 38
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceextractip_a027ec0c1479a189825c3ddcfefa0622d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceextractip_ad06d305b46e8793c42d3b69a019b024a}\label{namespaceextractip_ad06d305b46e8793c42d3b69a019b024a}} 
+\index{extractip@{extractip}!logger@{logger}}
+\index{logger@{logger}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{logger()}{logger()}}
+{\footnotesize\ttfamily def extractip.\+logger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Запуск логгера. 
+
+
+
+См. определение в файле extractip.\+py строка 29
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{namespaceextractip_ad06d305b46e8793c42d3b69a019b024a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceextractip_a4400b3ea86ebdf89264ad2424ca152e4}\label{namespaceextractip_a4400b3ea86ebdf89264ad2424ca152e4}} 
+\index{extractip@{extractip}!main@{main}}
+\index{main@{main}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def extractip.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Программа для чтения и преобразования файлов с IP и записи их в базу данных. 
+
+При запуске запускается логгер и 2 основных потока. 
+
+См. определение в файле extractip.\+py строка 146
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=277pt]{namespaceextractip_a4400b3ea86ebdf89264ad2424ca152e4_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceextractip_a3683febfdca5f525d87e4066e121b146}\label{namespaceextractip_a3683febfdca5f525d87e4066e121b146}} 
+\index{extractip@{extractip}!prog@{prog}}
+\index{prog@{prog}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{prog()}{prog()}}
+{\footnotesize\ttfamily def extractip.\+prog (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Первый поток -\/ обработка файлов. 
+
+Ищет входящие файлы и запускает еще шесть потоков для первых 1000 файлов. Добавляет результаты в очередь и исключает повторные I\+Ps. Обработка следующих 1000 файлов. Если нет входящих файлов, то ждем появления элементов. 
+
+См. определение в файле extractip.\+py строка 121
+
+\mbox{\Hypertarget{namespaceextractip_a93e2b267d1b4fe1cef5c09f3b66217c0}\label{namespaceextractip_a93e2b267d1b4fe1cef5c09f3b66217c0}} 
+\index{extractip@{extractip}!register@{register}}
+\index{register@{register}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{register()}{register()}}
+{\footnotesize\ttfamily def extractip.\+register (\begin{DoxyParamCaption}\item[{}]{f }\end{DoxyParamCaption})}
+
+
+
+Перенос файлов из I\+N/\+I\+PB в O\+U\+T/\+I\+PB. 
+
+Файлы которые невозможно прочесть выбрасываются в родительскую папку IN. 
+
+См. определение в файле extractip.\+py строка 67
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespaceextractip_a93e2b267d1b4fe1cef5c09f3b66217c0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespaceextractip_a4eeaa038e0dc125d55e221ea90a5a466}\label{namespaceextractip_a4eeaa038e0dc125d55e221ea90a5a466}} 
+\index{extractip@{extractip}!send\+DB@{send\+DB}}
+\index{send\+DB@{send\+DB}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{send\+D\+B()}{sendDB()}}
+{\footnotesize\ttfamily def extractip.\+send\+DB (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Второй поток -\/ отправка в базу дананных. 
+
+Получение элементов из очереди. Создание соединения с базой данных. Отправка полученного набора IP в базу данных. Ожидание следующего списка элементов. 
+
+См. определение в файле extractip.\+py строка 85
+
+
+
+\subsection{Переменные}
+\mbox{\Hypertarget{namespaceextractip_ac577365c0a3822c9a30c2f72ecd62c18}\label{namespaceextractip_ac577365c0a3822c9a30c2f72ecd62c18}} 
+\index{extractip@{extractip}!dbhost@{dbhost}}
+\index{dbhost@{dbhost}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{dbhost}{dbhost}}
+{\footnotesize\ttfamily string extractip.\+dbhost = \textquotesingle{}localhost\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 17
+
+\mbox{\Hypertarget{namespaceextractip_a9394808f1a48ea90bfa2bb86c76d01ad}\label{namespaceextractip_a9394808f1a48ea90bfa2bb86c76d01ad}} 
+\index{extractip@{extractip}!dbname@{dbname}}
+\index{dbname@{dbname}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{dbname}{dbname}}
+{\footnotesize\ttfamily string extractip.\+dbname = \textquotesingle{}project\+\_\+0\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 21
+
+\mbox{\Hypertarget{namespaceextractip_a1cc5f8cfee8451384713192bae5cf558}\label{namespaceextractip_a1cc5f8cfee8451384713192bae5cf558}} 
+\index{extractip@{extractip}!dbpass@{dbpass}}
+\index{dbpass@{dbpass}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{dbpass}{dbpass}}
+{\footnotesize\ttfamily string extractip.\+dbpass = \textquotesingle{}postgres\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 20
+
+\mbox{\Hypertarget{namespaceextractip_a37c1fd9eb8523d6a57cbd077d2075be2}\label{namespaceextractip_a37c1fd9eb8523d6a57cbd077d2075be2}} 
+\index{extractip@{extractip}!dbport@{dbport}}
+\index{dbport@{dbport}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{dbport}{dbport}}
+{\footnotesize\ttfamily string extractip.\+dbport = \textquotesingle{}5432\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 18
+
+\mbox{\Hypertarget{namespaceextractip_ae958c259d1ade44ffc42dc20f7d4b3ab}\label{namespaceextractip_ae958c259d1ade44ffc42dc20f7d4b3ab}} 
+\index{extractip@{extractip}!dbuser@{dbuser}}
+\index{dbuser@{dbuser}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{dbuser}{dbuser}}
+{\footnotesize\ttfamily string extractip.\+dbuser = \textquotesingle{}postgres\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 19
+
+\mbox{\Hypertarget{namespaceextractip_afc77b990583eaef27725f54b1e371fd4}\label{namespaceextractip_afc77b990583eaef27725f54b1e371fd4}} 
+\index{extractip@{extractip}!f\+Dir@{f\+Dir}}
+\index{f\+Dir@{f\+Dir}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{f\+Dir}{fDir}}
+{\footnotesize\ttfamily string extractip.\+f\+Dir = \textquotesingle{}..//IN//I\+PB\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 14
+
+\mbox{\Hypertarget{namespaceextractip_a3145a105043353658277d58cb99ff1c6}\label{namespaceextractip_a3145a105043353658277d58cb99ff1c6}} 
+\index{extractip@{extractip}!indir@{indir}}
+\index{indir@{indir}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{indir}{indir}}
+{\footnotesize\ttfamily string extractip.\+indir = \textquotesingle{}../IN/I\+PB\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 13
+
+\mbox{\Hypertarget{namespaceextractip_a990ac0d0fba3b9b0eff9e0538af6d7cf}\label{namespaceextractip_a990ac0d0fba3b9b0eff9e0538af6d7cf}} 
+\index{extractip@{extractip}!outdir@{outdir}}
+\index{outdir@{outdir}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{outdir}{outdir}}
+{\footnotesize\ttfamily string extractip.\+outdir = \textquotesingle{}../O\+UT/I\+PB\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 15
+
+\mbox{\Hypertarget{namespaceextractip_a2cf221bd199a42f6c0e3a42cba40b841}\label{namespaceextractip_a2cf221bd199a42f6c0e3a42cba40b841}} 
+\index{extractip@{extractip}!q@{q}}
+\index{q@{q}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{q}{q}}
+{\footnotesize\ttfamily extractip.\+q = queue.\+Queue()}
+
+
+
+См. определение в файле extractip.\+py строка 23
+
+\mbox{\Hypertarget{namespaceextractip_acbf601a19f64d09908d5ab149094b94d}\label{namespaceextractip_acbf601a19f64d09908d5ab149094b94d}} 
+\index{extractip@{extractip}!r\+Back@{r\+Back}}
+\index{r\+Back@{r\+Back}!extractip@{extractip}}
+\subsubsection{\texorpdfstring{r\+Back}{rBack}}
+{\footnotesize\ttfamily string extractip.\+r\+Back = \textquotesingle{}../IN/\textquotesingle{}}
+
+
+
+См. определение в файле extractip.\+py строка 16
+

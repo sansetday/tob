@@ -1,0 +1,41 @@
+\hypertarget{recognizeip_8py}{}\section{Файл recognizeip.\+py}
+\label{recognizeip_8py}\index{recognizeip.\+py@{recognizeip.\+py}}
+\subsection*{Пространства имен}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespacerecognizeip}{recognizeip}
+\end{DoxyCompactItemize}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacerecognizeip_a99d8f7a73addea7cea8ad5b0225e5005}{recognizeip.\+logger} ()
+\begin{DoxyCompactList}\small\item\em Запуск логгера. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a3bb8e2d63860a9c4027908b34014c56b}{recognizeip.\+Get\+Unknown} ()
+\begin{DoxyCompactList}\small\item\em Получение неизвестных IP из базы данных. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a362c41c14e0d237c722ab6c2234d6afa}{recognizeip.\+Get\+Request} (res)
+\begin{DoxyCompactList}\small\item\em Отправка IP на сервер и получение json\textquotesingle{}a с информацией об этих IP. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a7055bdccbd846aa71a7be77513548e08}{recognizeip.\+Update\+Unknown} (ip, cntry, cde, city, lat, lon)
+\begin{DoxyCompactList}\small\item\em Обновление IP в базе данных. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_ad9b913f5fd7d2c429fb56302952d3d74}{recognizeip.\+Parse\+Json} (ips)
+\begin{DoxyCompactList}\small\item\em Чтение json\textquotesingle{}a. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a9fb9f625acd36513818c1ac2f236070d}{recognizeip.\+scan} ()
+\begin{DoxyCompactList}\small\item\em Ожидание неизвестх IP. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_af2c16760c67e840d48d82917a9c9cacb}{recognizeip.\+updatedate} ()
+\begin{DoxyCompactList}\small\item\em Обновление даты IP в базе данных. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_aeacb92c088c1e5c9894254e390bc52c2}{recognizeip.\+main} ()
+\begin{DoxyCompactList}\small\item\em Программа для получения информации о неизвестных I\+P-\/адресов. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespacerecognizeip_ab088007f4af084f71c33ab23b8aa59fe}{recognizeip.\+dbhost} = \textquotesingle{}localhost\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_ae2d5ad4fcc3fcd7393e4a18f53282798}{recognizeip.\+dbport} = \textquotesingle{}5432\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_acc52b089af5fa13c73a78f70daa56494}{recognizeip.\+dbuser} = \textquotesingle{}postgres\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_a4ed50ea7f07921938765ea73e8131467}{recognizeip.\+dbpass} = \textquotesingle{}postgres\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_a114539cfda8487773400a49df2653b25}{recognizeip.\+dbname} = \textquotesingle{}project\+\_\+0\textquotesingle{}
+\item 
+int \hyperlink{namespacerecognizeip_ad79dcdb5a4cb450c8945c8fe3185e85a}{recognizeip.\+Sleep} = 86400
+\end{DoxyCompactItemize}

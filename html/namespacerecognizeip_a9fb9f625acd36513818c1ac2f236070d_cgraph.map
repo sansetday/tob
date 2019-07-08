@@ -1,0 +1,6 @@
+<map id="recognizeip.scan" name="recognizeip.scan">
+<area shape="rect" id="node2" href="$namespacerecognizeip.html#ad9b913f5fd7d2c429fb56302952d3d74" title="Чтение json&#39;a. " alt="" coords="180,5,335,32"/>
+<area shape="rect" id="node4" href="$namespacerecognizeip.html#a362c41c14e0d237c722ab6c2234d6afa" title="Отправка IP на сервер и получение json&#39;a с информацией об этих IP. " alt="" coords="176,56,339,83"/>
+<area shape="rect" id="node5" href="$namespacerecognizeip.html#a3bb8e2d63860a9c4027908b34014c56b" title="Получение неизвестных IP из базы данных. " alt="" coords="173,107,341,133"/>
+<area shape="rect" id="node3" href="$namespacerecognizeip.html#a7055bdccbd846aa71a7be77513548e08" title="Обновление IP в базе данных. " alt="" coords="389,5,579,32"/>
+</map>

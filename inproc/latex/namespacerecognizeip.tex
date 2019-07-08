@@ -1,0 +1,270 @@
+\hypertarget{namespacerecognizeip}{}\section{Пространство имен recognizeip}
+\label{namespacerecognizeip}\index{recognizeip@{recognizeip}}
+\subsection*{Функции}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacerecognizeip_a99d8f7a73addea7cea8ad5b0225e5005}{logger} ()
+\begin{DoxyCompactList}\small\item\em Запуск логгера. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a3bb8e2d63860a9c4027908b34014c56b}{Get\+Unknown} ()
+\begin{DoxyCompactList}\small\item\em Получение неизвестных IP из базы данных. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a362c41c14e0d237c722ab6c2234d6afa}{Get\+Request} (res)
+\begin{DoxyCompactList}\small\item\em Отправка IP на сервер и получение json\textquotesingle{}a с информацией об этих IP. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a7055bdccbd846aa71a7be77513548e08}{Update\+Unknown} (ip, cntry, cde, city, lat, lon)
+\begin{DoxyCompactList}\small\item\em Обновление IP в базе данных. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_ad9b913f5fd7d2c429fb56302952d3d74}{Parse\+Json} (ips)
+\begin{DoxyCompactList}\small\item\em Чтение json\textquotesingle{}a. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_a9fb9f625acd36513818c1ac2f236070d}{scan} ()
+\begin{DoxyCompactList}\small\item\em Ожидание неизвестх IP. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_af2c16760c67e840d48d82917a9c9cacb}{updatedate} ()
+\begin{DoxyCompactList}\small\item\em Обновление даты IP в базе данных. \end{DoxyCompactList}\item 
+def \hyperlink{namespacerecognizeip_aeacb92c088c1e5c9894254e390bc52c2}{main} ()
+\begin{DoxyCompactList}\small\item\em Программа для получения информации о неизвестных I\+P-\/адресов. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Переменные}
+\begin{DoxyCompactItemize}
+\item 
+string \hyperlink{namespacerecognizeip_ab088007f4af084f71c33ab23b8aa59fe}{dbhost} = \textquotesingle{}localhost\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_ae2d5ad4fcc3fcd7393e4a18f53282798}{dbport} = \textquotesingle{}5432\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_acc52b089af5fa13c73a78f70daa56494}{dbuser} = \textquotesingle{}postgres\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_a4ed50ea7f07921938765ea73e8131467}{dbpass} = \textquotesingle{}postgres\textquotesingle{}
+\item 
+string \hyperlink{namespacerecognizeip_a114539cfda8487773400a49df2653b25}{dbname} = \textquotesingle{}project\+\_\+0\textquotesingle{}
+\item 
+int \hyperlink{namespacerecognizeip_ad79dcdb5a4cb450c8945c8fe3185e85a}{Sleep} = 86400
+\end{DoxyCompactItemize}
+
+
+\subsection{Функции}
+\mbox{\Hypertarget{namespacerecognizeip_a362c41c14e0d237c722ab6c2234d6afa}\label{namespacerecognizeip_a362c41c14e0d237c722ab6c2234d6afa}} 
+\index{recognizeip@{recognizeip}!Get\+Request@{Get\+Request}}
+\index{Get\+Request@{Get\+Request}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{Get\+Request()}{GetRequest()}}
+{\footnotesize\ttfamily def recognizeip.\+Get\+Request (\begin{DoxyParamCaption}\item[{}]{res }\end{DoxyParamCaption})}
+
+
+
+Отправка IP на сервер и получение json\textquotesingle{}a с информацией об этих IP. 
+
+
+
+См. определение в файле recognizeip.\+py строка 55
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{namespacerecognizeip_a362c41c14e0d237c722ab6c2234d6afa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerecognizeip_a3bb8e2d63860a9c4027908b34014c56b}\label{namespacerecognizeip_a3bb8e2d63860a9c4027908b34014c56b}} 
+\index{recognizeip@{recognizeip}!Get\+Unknown@{Get\+Unknown}}
+\index{Get\+Unknown@{Get\+Unknown}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{Get\+Unknown()}{GetUnknown()}}
+{\footnotesize\ttfamily def recognizeip.\+Get\+Unknown (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Получение неизвестных IP из базы данных. 
+
+
+
+См. определение в файле recognizeip.\+py строка 31
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{namespacerecognizeip_a3bb8e2d63860a9c4027908b34014c56b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerecognizeip_a99d8f7a73addea7cea8ad5b0225e5005}\label{namespacerecognizeip_a99d8f7a73addea7cea8ad5b0225e5005}} 
+\index{recognizeip@{recognizeip}!logger@{logger}}
+\index{logger@{logger}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{logger()}{logger()}}
+{\footnotesize\ttfamily def recognizeip.\+logger (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Запуск логгера. 
+
+
+
+См. определение в файле recognizeip.\+py строка 19
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{namespacerecognizeip_a99d8f7a73addea7cea8ad5b0225e5005_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerecognizeip_aeacb92c088c1e5c9894254e390bc52c2}\label{namespacerecognizeip_aeacb92c088c1e5c9894254e390bc52c2}} 
+\index{recognizeip@{recognizeip}!main@{main}}
+\index{main@{main}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily def recognizeip.\+main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Программа для получения информации о неизвестных I\+P-\/адресов. 
+
+
+
+См. определение в файле recognizeip.\+py строка 155
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{namespacerecognizeip_aeacb92c088c1e5c9894254e390bc52c2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerecognizeip_ad9b913f5fd7d2c429fb56302952d3d74}\label{namespacerecognizeip_ad9b913f5fd7d2c429fb56302952d3d74}} 
+\index{recognizeip@{recognizeip}!Parse\+Json@{Parse\+Json}}
+\index{Parse\+Json@{Parse\+Json}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{Parse\+Json()}{ParseJson()}}
+{\footnotesize\ttfamily def recognizeip.\+Parse\+Json (\begin{DoxyParamCaption}\item[{}]{ips }\end{DoxyParamCaption})}
+
+
+
+Чтение json\textquotesingle{}a. 
+
+
+
+См. определение в файле recognizeip.\+py строка 94
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacerecognizeip_ad9b913f5fd7d2c429fb56302952d3d74_cgraph}
+\end{center}
+\end{figure}
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{namespacerecognizeip_ad9b913f5fd7d2c429fb56302952d3d74_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerecognizeip_a9fb9f625acd36513818c1ac2f236070d}\label{namespacerecognizeip_a9fb9f625acd36513818c1ac2f236070d}} 
+\index{recognizeip@{recognizeip}!scan@{scan}}
+\index{scan@{scan}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{scan()}{scan()}}
+{\footnotesize\ttfamily def recognizeip.\+scan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Ожидание неизвестх IP. 
+
+
+
+См. определение в файле recognizeip.\+py строка 121
+
+Граф вызовов\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacerecognizeip_a9fb9f625acd36513818c1ac2f236070d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{namespacerecognizeip_af2c16760c67e840d48d82917a9c9cacb}\label{namespacerecognizeip_af2c16760c67e840d48d82917a9c9cacb}} 
+\index{recognizeip@{recognizeip}!updatedate@{updatedate}}
+\index{updatedate@{updatedate}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{updatedate()}{updatedate()}}
+{\footnotesize\ttfamily def recognizeip.\+updatedate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Обновление даты IP в базе данных. 
+
+
+
+См. определение в файле recognizeip.\+py строка 131
+
+\mbox{\Hypertarget{namespacerecognizeip_a7055bdccbd846aa71a7be77513548e08}\label{namespacerecognizeip_a7055bdccbd846aa71a7be77513548e08}} 
+\index{recognizeip@{recognizeip}!Update\+Unknown@{Update\+Unknown}}
+\index{Update\+Unknown@{Update\+Unknown}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{Update\+Unknown()}{UpdateUnknown()}}
+{\footnotesize\ttfamily def recognizeip.\+Update\+Unknown (\begin{DoxyParamCaption}\item[{}]{ip,  }\item[{}]{cntry,  }\item[{}]{cde,  }\item[{}]{city,  }\item[{}]{lat,  }\item[{}]{lon }\end{DoxyParamCaption})}
+
+
+
+Обновление IP в базе данных. 
+
+
+
+См. определение в файле recognizeip.\+py строка 76
+
+Граф вызова функции\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{namespacerecognizeip_a7055bdccbd846aa71a7be77513548e08_icgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Переменные}
+\mbox{\Hypertarget{namespacerecognizeip_ab088007f4af084f71c33ab23b8aa59fe}\label{namespacerecognizeip_ab088007f4af084f71c33ab23b8aa59fe}} 
+\index{recognizeip@{recognizeip}!dbhost@{dbhost}}
+\index{dbhost@{dbhost}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{dbhost}{dbhost}}
+{\footnotesize\ttfamily string recognizeip.\+dbhost = \textquotesingle{}localhost\textquotesingle{}}
+
+
+
+См. определение в файле recognizeip.\+py строка 7
+
+\mbox{\Hypertarget{namespacerecognizeip_a114539cfda8487773400a49df2653b25}\label{namespacerecognizeip_a114539cfda8487773400a49df2653b25}} 
+\index{recognizeip@{recognizeip}!dbname@{dbname}}
+\index{dbname@{dbname}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{dbname}{dbname}}
+{\footnotesize\ttfamily string recognizeip.\+dbname = \textquotesingle{}project\+\_\+0\textquotesingle{}}
+
+
+
+См. определение в файле recognizeip.\+py строка 11
+
+\mbox{\Hypertarget{namespacerecognizeip_a4ed50ea7f07921938765ea73e8131467}\label{namespacerecognizeip_a4ed50ea7f07921938765ea73e8131467}} 
+\index{recognizeip@{recognizeip}!dbpass@{dbpass}}
+\index{dbpass@{dbpass}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{dbpass}{dbpass}}
+{\footnotesize\ttfamily string recognizeip.\+dbpass = \textquotesingle{}postgres\textquotesingle{}}
+
+
+
+См. определение в файле recognizeip.\+py строка 10
+
+\mbox{\Hypertarget{namespacerecognizeip_ae2d5ad4fcc3fcd7393e4a18f53282798}\label{namespacerecognizeip_ae2d5ad4fcc3fcd7393e4a18f53282798}} 
+\index{recognizeip@{recognizeip}!dbport@{dbport}}
+\index{dbport@{dbport}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{dbport}{dbport}}
+{\footnotesize\ttfamily string recognizeip.\+dbport = \textquotesingle{}5432\textquotesingle{}}
+
+
+
+См. определение в файле recognizeip.\+py строка 8
+
+\mbox{\Hypertarget{namespacerecognizeip_acc52b089af5fa13c73a78f70daa56494}\label{namespacerecognizeip_acc52b089af5fa13c73a78f70daa56494}} 
+\index{recognizeip@{recognizeip}!dbuser@{dbuser}}
+\index{dbuser@{dbuser}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{dbuser}{dbuser}}
+{\footnotesize\ttfamily string recognizeip.\+dbuser = \textquotesingle{}postgres\textquotesingle{}}
+
+
+
+См. определение в файле recognizeip.\+py строка 9
+
+\mbox{\Hypertarget{namespacerecognizeip_ad79dcdb5a4cb450c8945c8fe3185e85a}\label{namespacerecognizeip_ad79dcdb5a4cb450c8945c8fe3185e85a}} 
+\index{recognizeip@{recognizeip}!Sleep@{Sleep}}
+\index{Sleep@{Sleep}!recognizeip@{recognizeip}}
+\subsubsection{\texorpdfstring{Sleep}{Sleep}}
+{\footnotesize\ttfamily int recognizeip.\+Sleep = 86400}
+
+
+
+См. определение в файле recognizeip.\+py строка 13
+
